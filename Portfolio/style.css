@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(236, 163, 163, 0.199);
+    font-size: 20px;
+    padding-left: 60px; 
+    padding-right: 60px; 
+    
+}
+
+header {
+    background-color: #110e0b;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav-options{
+    color: rgb(247, 246, 246);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 5px;
+    /* color: #f0f0f0; */
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #f0f0f0; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+   
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.home .content {
+    background-color: rgba(17, 245, 218, 0.196);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+
+.about {
+    background-color: #1017951a;
+}
+
+.skills {
+    background-color: #3442c337;
+}
+
+.contact {
+    background-color: #e6b3b33e;
+}
+
+
+footer {
+    background-color: #73b1e83b;
+    color: rgba(8, 1, 1, 0.234);
+    text-align: center;
+    padding: 10px 0;
+}
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #65caec;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile-photo img {
+    /* max-width: 25%; */
+    width: 230px;
+    height: 230px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+
+
+
+ .content{
+    text-align: center;
+    list-style-type: none;
+    color: #110e0b;
+    
+}
+
+.content ul{
+    list-style-type: none;
+}
+
+#projects{
+    margin-top: 100px;
+}
+
+#contact a{
+    margin: 0px 10px;
+}
+
+#skills ul{
+   margin-right: 35px;
+}
+
